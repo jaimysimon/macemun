@@ -25,10 +25,6 @@
 		});
  
     
-	// Play initial animations on page load.
-		$(window).on("load",function(){
-     $(".loader-wrapper").fadeOut("slow");
-});
 
 	// Fix: Flexbox min-height bug on IE.
 		if (browser.name == 'ie') {
